@@ -1,0 +1,8 @@
+langchain-community
+langchain-groq 
+langgraph 
+langserve 
+dotenv 
+fastapi
+uvicorn
+sse_starlette
