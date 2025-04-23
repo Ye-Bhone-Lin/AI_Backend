@@ -1,0 +1,56 @@
+{
+    "quizTitle": "React Advanced Quiz",
+    "questions": [
+      {
+        "question": "What is the purpose of React.lazy?",
+        "options": [
+          "To create a lazy loop in rendering",
+          "To defer rendering of a component until a button is clicked",
+          "To enable code splitting by loading components lazily",
+          "To cache components during re-renders"
+        ],
+        "answer": "To enable code splitting by loading components lazily"
+      },
+      {
+        "question": "Which of the following is a correct use of a custom hook?",
+        "options": [
+          "Custom hooks must start with the word 'Hook'",
+          "Custom hooks can only be used in class components",
+          "Custom hooks encapsulate reusable logic using other hooks",
+          "Custom hooks cannot use useEffect or useState"
+        ],
+        "answer": "Custom hooks encapsulate reusable logic using other hooks"
+      },
+      {
+        "question": "What is the main role of React’s reconciliation algorithm?",
+        "options": [
+          "To reconcile differences in browser rendering",
+          "To manually sync React with the DOM",
+          "To efficiently update the DOM by comparing virtual DOM trees",
+          "To merge multiple contexts together"
+        ],
+        "answer": "To efficiently update the DOM by comparing virtual DOM trees"
+      },
+      {
+        "question": "Which of these scenarios is a good use case for the Context API?",
+        "options": [
+          "Passing props to a single child component",
+          "Managing global state shared by many deeply nested components",
+          "Avoiding the use of hooks",
+          "Improving rendering speed for large lists"
+        ],
+        "answer": "Managing global state shared by many deeply nested components"
+      },
+      {
+        "question": "What does React's useImperativeHandle hook allow you to do?",
+        "options": [
+          "Force a component to re-render",
+          "Manually update state from outside a component",
+          "Expose custom methods from a child component to its parent via ref",
+          "Use useRef inside useEffect"
+        ],
+        "answer": "Expose custom methods from a child component to its parent via ref"
+      }
+    ]
+  }
+  

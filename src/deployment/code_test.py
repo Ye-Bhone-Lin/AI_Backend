@@ -6,7 +6,6 @@ from langchain_core.runnables import RunnablePassthrough
 from fastapi import FastAPI
 import uvicorn
 from langserve import add_routes
-from operator import itemgetter
 
 load_dotenv()
 model = ChatGroq(model_name="meta-llama/llama-4-scout-17b-16e-instruct")
@@ -15,12 +14,14 @@ template1 = """
 You are a code reviewer.
 - You have to give the code test based on user level.
 - You have to give the user to code test which can be all programming languages but you dont have to MENTION.
+if the user asks for the hint, you have to give them a hint.
 After that give them a feedback.
 - Check their logic step-by-step.
 - If the code is incorrect or incomplete, explain where it breaks and how to fix it.
 - If the code is mostly correct, provide helpful suggestions to improve.
 - Be friendly and constructive.
 Say goodbyes.
+You have to loop this format until finishing 3 code testing.
 ---
 Question: {question}
 """

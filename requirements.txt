@@ -6,3 +6,4 @@ dotenv
 fastapi
 uvicorn
 sse_starlette
+langchain_google_genai
