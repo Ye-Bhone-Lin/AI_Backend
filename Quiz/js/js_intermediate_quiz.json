@@ -1,0 +1,41 @@
+{
+    "quizTitle": "JavaScript Intermediate Quiz",
+    "questions": [
+      {
+        "question": "What does `===` mean in JavaScript?",
+        "options": [
+          "Assignment operator",
+          "Strict equality (value and type)",
+          "Loose equality (value only)",
+          "Comparison with type coercion"
+        ],
+        "answer": "Strict equality (value and type)"
+      },
+      {
+        "question": "What will `typeof null` return?",
+        "options": ["null", "object", "undefined", "NaN"],
+        "answer": "object"
+      },
+      {
+        "question": "Which of the following is NOT a primitive type in JavaScript?",
+        "options": ["String", "Number", "Object", "Boolean"],
+        "answer": "Object"
+      },
+      {
+        "question": "What does the `map()` function do on arrays?",
+        "options": [
+          "Filters the array",
+          "Sorts the array",
+          "Executes a function for each element and returns a new array",
+          "Changes the array length"
+        ],
+        "answer": "Executes a function for each element and returns a new array"
+      },
+      {
+        "question": "Which method converts a JSON string into a JavaScript object?",
+        "options": ["JSON.parse()", "JSON.stringify()", "parseJSON()", "toObject()"],
+        "answer": "JSON.parse()"
+      }
+    ]
+  }
+  

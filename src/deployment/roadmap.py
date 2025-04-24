@@ -23,35 +23,30 @@ Return with only json outputs.
       "step_number": 1,
       "title": "",
       "description": "",
-      "resource_url": "",
       "estimated_time_minutes": 
     }},
     {{
       "step_number": 2,
       "title": "",
       "description": "",
-      "resource_url": "",
       "estimated_time_minutes":
     }},
     {{
       "step_number": 3,
       "title": "Frontend Framework - ",
       "description": "",
-      "resource_url": "",
       "estimated_time_minutes": 
     }},
     {{
       "step_number": 4,
       "title": "",
       "description": ",
-      "resource_url": "",
       "estimated_time_minutes": 
     }},
     {{
       "step_number": 5,
       "title": "",
       "description": "",
-      "resource_url": "",
       "estimated_time_minutes":
     }}
   ]

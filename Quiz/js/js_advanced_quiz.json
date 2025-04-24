@@ -1,0 +1,51 @@
+{
+    "quizTitle": "JavaScript Advanced Quiz",
+    "questions": [
+      {
+        "question": "What is the result of: `[...'hello']`?",
+        "options": [
+          "['h','e','l','l','o']",
+          "['hello']",
+          "undefined",
+          "Error"
+        ],
+        "answer": "['h','e','l','l','o']"
+      },
+      {
+        "question": "What is a closure in JavaScript?",
+        "options": [
+          "A variable that is always private",
+          "An inner function that has access to its outer function’s variables",
+          "A function without a name",
+          "A function that returns itself"
+        ],
+        "answer": "An inner function that has access to its outer function’s variables"
+      },
+      {
+        "question": "What does `async`/`await` help with?",
+        "options": [
+          "Working with synchronous code",
+          "Making AJAX requests",
+          "Writing promise-based asynchronous code in a cleaner way",
+          "Looping through arrays"
+        ],
+        "answer": "Writing promise-based asynchronous code in a cleaner way"
+      },
+      {
+        "question": "Which of the following can break the single-threaded nature of JavaScript?",
+        "options": [
+          "Web Workers",
+          "Promises",
+          "Async/Await",
+          "setTimeout"
+        ],
+        "answer": "Web Workers"
+      },
+      {
+        "question": "What will this output?\n```js\nconsole.log([] + []);\n```",
+        "options": ["0", "NaN", "\"\"", "undefined"],
+        "answer": "\"\""
+      }
+    ]
+  }
+  
