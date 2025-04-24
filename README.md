@@ -12,8 +12,6 @@ In order to test "roadmap" : https://ai-backend-3-3gjd.onrender.com/roadmap/invo
 {"input":{"input": "I want to learn AI Engineer now I am beginner level."}}
 take the output: ['output']['content']
 
-In order to test "explain_details" : https://ai-backend-4-hsfy.onrender.com/steps/invoke
-{"input":{
-"input": "{step_number': 2,'title': 'Python Programming for AI','description': 'Learn Python programming language and its applications in AI','estimated_time_minutes': 180}"
-}}
+In order to test "explain_details" : [https://ai-backend-4-hsfy.onrender.com/steps/invoke](https://ai-backend-5-taur.onrender.com/steps/invoke)
+{"input":{"input": "{\"title\": \"Introduction to AI and Machine Learning\", \"description\": \"Learn the basics of AI, ML, and DL. Understand the types of AI, ML, and DL.\", What is the Neural Network?"}}
 take the output: ['output']['content']
