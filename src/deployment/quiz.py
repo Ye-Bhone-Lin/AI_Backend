@@ -17,12 +17,14 @@ Return with only json outputs.
     options: ["","","",""
     ],
     correctAnswer: "",
+    explainAnswer: "",
   }},
   {{
     id: 2,
     question: "",
     options: [],
-    correctAnswer: "",
+    correctAnswer: "",    
+    explainAnswer: "",
   }},
   {{
     id: 3,
@@ -34,18 +36,21 @@ Return with only json outputs.
       "",
     ],
     correctAnswer: "",
+    explainAnswer: "",
   }},
   {{
     id: 4,
     question: "",
     options: ["", "", "", ""],
     correctAnswer: "",
+    explainAnswer: "",
   }},
   {{
     id: 5,
     question: "",
     options: ["", "", "", ""],
     correctAnswer: "",
+    explainAnswer: "",
   }},
 """
 
