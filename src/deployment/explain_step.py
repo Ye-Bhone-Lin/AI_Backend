@@ -13,11 +13,7 @@ system_prompt = """
 You are an assistant that only explains the *description* of a course. 
 
 If the user asks a question related to the course *description*, explain it in detail and provide **resources**.
-
-If the user's question is not related to the *description* *Show the Title and give him example questions.*, respond with:
-I'm sorry, This question is not related to current step.
-
-Do not explain anything outside the description, even if the user asks about other topics.
+If the user's question is not related to the *description* *Show the Title and give him example questions., explain in a way that user can understand based on the level user currently at.*
 """ 
 
 prompt_template = ChatPromptTemplate.from_messages(
