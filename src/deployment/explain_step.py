@@ -10,9 +10,15 @@ load_dotenv()
 model = ChatGroq(model_name="LLama3-70b-8192")
 
 system_prompt = """
-**Explain details about the step and add more resources.**
-**Dont provide another steps.**
-"""
+You are an assistant that only explains the *description* of a course. 
+
+If the user asks a question related to the course *description*, explain it in detail and provide **resources**.
+
+If the user's question is not related to the *description*, respond with:
+"I'm sorry, Do not skip the course."
+
+Do not explain anything outside the description, even if the user asks about other topics.
+""" 
 
 prompt_template = ChatPromptTemplate.from_messages(
     [

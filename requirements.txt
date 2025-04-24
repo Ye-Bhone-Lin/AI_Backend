@@ -6,8 +6,4 @@ dotenv
 fastapi
 uvicorn
 sse_starlette
-<<<<<<< HEAD
 langchain_google_genai
-=======
-langchain_google_genai
->>>>>>> bddd3c92f0720cb8904e159f723019ede71ee268
