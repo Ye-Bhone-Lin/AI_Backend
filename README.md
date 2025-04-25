@@ -1,7 +1,9 @@
 # AI_Backend
 
-In order to test "code_test" : https://ai-backend-2-72ln.onrender.com/codetest/invoke
-{"input": {"level": "beginner", "input": "start"}}
+In order to test "code_test" : https://ai-backend-12.onrender.com/formatcode/invoke
+{"input":{
+"input": "advanced code test question"
+}}
 take the output: ["output"]["content"]
 
 In order to test "text_to_text" : https://ai-backend-1-n8mt.onrender.com/chat/
