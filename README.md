@@ -18,7 +18,7 @@ In order to test "explain_details" :[ [https://ai-backend-4-hsfy.onrender.com/st
 {"input":{"input": "{\"title\": \"Introduction to AI and Machine Learning\", \"description\": \"Learn the basics of AI, ML, and DL. Understand the types of AI, ML, and DL.\", What is the Neural Network?"}}
 take the output: ['output']['content']
 
-In order to test "quiz" : https://ai-backend-13.onrender.com/quiz/invoke
+In order to test "quiz" : https://quizzz-cver.onrender.com/quiz/invoke
 {"input":{"input": "{Beginner Python}"}}
 take the output: ['output']['content']
 
